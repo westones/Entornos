@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Prueba con Git</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>🌐 Mi Página Pro de Pruebas</h1>
+      <nav>
+        <button data-seccion="home">Inicio</button>
+        <button data-seccion="about">Sobre mí</button>
+        <button data-seccion="contact">Contacto</button>
+      </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <section id="home" class="activo">
+        <h2>Bienvenido 🚀</h2>
+        <p>
+          Esta es la sección de inicio. Aquí podrás navegar entre pestañas sin
+          recargar la página, como una mini app SPA.
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>Sobre mí 👨‍💻</h2>
+        <p>
+          Soy un proyecto de prueba diseñado para practicar con
+          <strong>Git</strong> y <strong>GitHub</strong>. Mi objetivo es
+          ayudarte a versionar tu código de manera pro.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contacto 📬</h2>
+        <p>
+          Esta sección es para que imagines un formulario de contacto. Pronto
+          podrás integrar aquí un <em>backend</em> real 😉.
+        </p>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        Hecho con ❤️ por <strong>Tú</strong> — Proyecto de prueba con Git y
+        GitHub ©
+        <span id="year"></span>
+      </p>
+    </footer>
+
+    <script src="prueba.js"></script>
+  </body>
+</html>
